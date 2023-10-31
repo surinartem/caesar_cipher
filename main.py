@@ -1,4 +1,5 @@
 import math
+//
 
 def paint_wall(hight,wight,cover):
     num_of_cans = (hight*wight)/cover
