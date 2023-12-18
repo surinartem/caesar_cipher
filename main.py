@@ -5,10 +5,10 @@ def paint_wall(hight,wight,cover):
     num_of_cans = (hight*wight)/cover
     return (math.ceil(num_of_cans))
 #
-# test_hight = 2
+# test_hight = 2ascadfaewwd
 # test_wight = 4
 # coverage = 5
-# cans = paint_wall(hight=test_hight,wight=test_wight,cover=coverage)
+
 # print (f"Тебе надо {cans} банок, что б покрасить стену {test_wight} на {test_hight}")
 
 def prime_checker(number):
@@ -21,6 +21,22 @@ def prime_checker(number):
     else:
         print ("Число не простое")
 
+
+
+def prime_checker(number):
+    counter = True
+    for i in range(2,number-1):
+        if number % i == 0:def prime_checker(number):
+    counter = True
+    for i in range(2,number-1):
+        if number % i == 0:def prime_checker(number):
+    counter = True
+    for i in range(2,number-1):
+        if number % i == 0:def prime_checker(number):
+    counter = True
+    for i in range(2,number-1):
+        if number % i == 0:
+
 # n=int(input(" Введите число "))
 # prime_checker(number = n)
 
@@ -30,14 +46,7 @@ def encryp(messege,shift):
     result=[]
     for letter in messege:
         for j in range(len(alphaebt)):
-            if letter == alphaebt[j]:
-                iter = j+shift
-                # print(f"Буква {letter} номер в алфавите {iter}" )
-                if iter >= 33:
-                    iter = iter - 33
-                result.append(alphaebt[iter])
-
-        if letter not in alphaebt:
+        
             result.append(letter)
 
     return ("".join(result))
